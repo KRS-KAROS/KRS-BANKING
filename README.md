@@ -1,9 +1,6 @@
 # KRS-BANKING
 
 
-	* 'es_extended'
-	* 'ox_target'
-
 
 𝗞𝗥𝗦® ᴄᴏᴘʏʀɪɢʜᴛ ©2023
 
