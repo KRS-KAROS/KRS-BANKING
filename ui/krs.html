@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="krs.css">
+  <title>𝗞𝗥𝗦® │Development</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1>KRS BANK</h1>
+
+
+    <div class="bottonedeposita">
+      <button class="deposita" id="depositare" onclick="deposita()">deposit</button>
+
+      <div class="deposita-testo">
+        <input type="number" class="deposita-controllo" id="deposita" placeholder="deposit" min="1"
+          style="text-align: center;">
+      </div>
+    </div>
+
+
+    <div class="bottoneritira">
+      <button class="ritira" id="ritirare" onclick="ritira()">withdraw</button>
+
+      <div class="ritira-testo">
+        <input type="number" class="ritira-controllo" id="ritira" placeholder="withdraw" min="1"
+          style="text-align: center;">
+      </div>
+    </div>
+
+    <div class="bottonetrasferire">
+      <button class="trasfe" id="trasferire" onclick="trasferire()">transfer</button>
+
+      <div class="trasfe-testo">
+        <input type="number" class="trasfe-controllo1" id="trasfe1" placeholder="ID" min="1"
+          style="text-align: center;">
+        <input type="number" class="trasfe-controllo2" id="trasfe2" placeholder="transfer" min="1"
+          style="text-align: center;">
+
+      </div>
+
+    </div>
+
+    <div class="bank-box info-title">
+      <h1 class="h1">Money in the bank</h1>
+      <h3 class="bank info" id="bank"> Bank </h3>
+    </div>
+
+    <img src="logo.gif" class="logo">
+    <div class="carta"></div>
+    <img src="carta.png" class="carta">
+
+  </div>
+
+
+
+</body>
+
+</html>
+
+<script src="krs.js"></script>

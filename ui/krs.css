@@ -1,0 +1,234 @@
+/* Contenuto */
+.container {
+  display: none;
+  position: absolute;
+  background: linear-gradient(
+    -45deg,
+    rgba(33, 160, 202, 0.77) 0%,
+    rgba(0, 0, 0, 0.719) 80%
+  );
+  border: 1px rgba(0, 107, 143, 0.555) solid;
+  border-radius: 4px;
+  width: 700px;
+  height: 500px;
+  left: 650px; /* posizione centrale 650px */
+  right: 0;
+  margin-top: 180px;
+
+  /* animation: KrsBoxAnim 2s ease 0s 1 normal forwards; */
+}
+
+* {
+  transition: all 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 70px;
+  height: 60px;
+  margin-left: 20px;
+  right: 0;
+}
+
+/* Animazione */
+@keyframes KrsBoxAnim {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+/* Soldi in Banca */
+.bank {
+  background-color: rgba(0, 0, 0, 0.26);
+  width: 150px;
+  height: 25px;
+  border-radius: 2px;
+  color: #62c9d0;
+  margin-left: 530px;
+  margin-top: -5px;
+  text-align: center;
+
+  text-shadow: 1px 0px 6px #62c9d0;
+}
+
+.h1 {
+  margin-left: 547px;
+  margin-top: -150px;
+  font-size: 14px;
+}
+
+.ritira {
+  position: absolute;
+  margin-left: 500px;
+  background-color: #ff00ea;
+  box-shadow: 1px 1px 10px 1px rgba(255, 25, 255, 0.46);
+  color: white;
+  border: 1px rgba(255, 255, 255, 0) solid;
+  border-radius: 1px;
+  width: 110px;
+  height: 35px;
+  left: -10px;
+  margin-top: 339px;
+  font-family: monospace;
+}
+
+h1 {
+  margin-left: 290px;
+  font-family: monospace;
+  color: white;
+  filter: drop-shadow(0 5px 5px rgba(255, 255, 255, 0.808));
+}
+
+.deposita {
+  position: absolute;
+  margin-left: 500px;
+  background-color: #00ff95;
+  box-shadow: 1px 1px 10px 1px rgb(0, 255, 128);
+  color: white;
+  border: 1px rgba(255, 255, 255, 0) solid;
+  border-radius: 1px;
+  width: 110px;
+  height: 35px;
+  left: -390px;
+  margin-top: 339px;
+  font-family: monospace;
+}
+
+.trasfe {
+  position: absolute;
+  margin-left: 500px;
+  background-color: #ff9100;
+  box-shadow: 1px 1px 10px 1px rgb(255, 136, 0);
+  color: white;
+  border: 1px rgba(255, 255, 255, 0) solid;
+  border-radius: 1px;
+  width: 70px;
+  height: 35px;
+  left: -180px;
+  margin-top: 359px;
+  font-family: monospace;
+}
+
+.carta {
+  width: 180px;
+  height: 120px;
+  border-radius: 1px;
+  margin-top: -60px;
+  margin-left: 260px;
+  animation: KrsBoxAnim 2s ease 0s 1 normal forwards;
+}
+
+.deposita-testo {
+  width: 180px;
+  height: 120px;
+  border-radius: 1px;
+  margin-top: -3px;
+  margin-left: 10px;
+}
+
+.deposita-controllo {
+  outline: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 1px;
+  margin-top: 260px;
+  margin-left: 100px;
+  background-color: #3b3b42de;
+  border: 1px rgba(255, 255, 255, 0.137) solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
+  color: white;
+}
+
+/* Icona */
+
+.ritira-testo {
+  width: 180px;
+  height: 120px;
+  border-radius: 1px;
+  margin-top: -120px;
+  margin-left: 180px;
+}
+
+.ritira-controllo {
+  outline: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 1px;
+  margin-top: 260px;
+  margin-left: 310px;
+  background-color: #3b3b42de;
+  border: 1px rgba(255, 255, 255, 0.137) solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
+  color: rgb(255, 255, 255);
+}
+
+.trasfe-testo {
+  width: 180px;
+  height: 120px;
+  border-radius: 1px;
+  margin-top: -120px;
+  margin-left: 180px;
+}
+
+.trasfe-controllo1 {
+  outline: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 1px;
+  margin-top: 227px;
+  margin-left: 140px;
+  background-color: #3b3b42de;
+  border: 1px rgba(255, 255, 255, 0.137) solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
+  color: rgb(255, 255, 255);
+}
+
+.trasfe-controllo2 {
+  outline: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 1px;
+  margin-top: 1px;
+  margin-left: 140px;
+  background-color: #3b3b42de;
+  border: 1px rgba(255, 255, 255, 0.137) solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
+  color: rgb(255, 255, 255);
+}
+
+::-webkit-inner-spin-button,
+input[type="number"] ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
