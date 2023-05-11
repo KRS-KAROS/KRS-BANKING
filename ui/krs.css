@@ -3,12 +3,12 @@
   display: none;
   position: absolute;
   background: linear-gradient(
-    -45deg,
+    -10deg,
     rgba(33, 160, 202, 0.77) 0%,
     rgba(0, 0, 0, 0.719) 80%
   );
   border: 1px rgba(0, 107, 143, 0.555) solid;
-  border-radius: 4px;
+  border-radius: 15px;
   width: 700px;
   height: 500px;
   left: 650px; /* posizione centrale 650px */
@@ -65,10 +65,10 @@ button:hover {
 
 /* Soldi in Banca */
 .bank {
-  background-color: rgba(0, 0, 0, 0.26);
+  background-color: rgba(0, 0, 0, 0.151);
   width: 150px;
   height: 25px;
-  border-radius: 2px;
+  border-radius: 10px;
   color: #62c9d0;
   margin-left: 530px;
   margin-top: -5px;
@@ -86,11 +86,11 @@ button:hover {
 .ritira {
   position: absolute;
   margin-left: 500px;
-  background-color: #ff00ea;
-  box-shadow: 1px 1px 10px 1px rgba(255, 25, 255, 0.46);
+  background-color: #62c9d0;
+  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 1px;
+  border-radius: 10px;
   width: 110px;
   height: 35px;
   left: -10px;
@@ -108,11 +108,11 @@ h1 {
 .deposita {
   position: absolute;
   margin-left: 500px;
-  background-color: #00ff95;
-  box-shadow: 1px 1px 10px 1px rgb(0, 255, 128);
+  background-color: #62c9d0;
+  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 1px;
+  border-radius: 10px;
   width: 110px;
   height: 35px;
   left: -390px;
@@ -123,11 +123,11 @@ h1 {
 .trasfe {
   position: absolute;
   margin-left: 500px;
-  background-color: #ff9100;
-  box-shadow: 1px 1px 10px 1px rgb(255, 136, 0);
+  background-color: #62c9d0;
+  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 1px;
+  border-radius: 10px;
   width: 70px;
   height: 35px;
   left: -180px;
@@ -156,7 +156,7 @@ h1 {
   outline: none;
   width: 100px;
   height: 30px;
-  border-radius: 1px;
+  border-radius: 10px;
   margin-top: 260px;
   margin-left: 100px;
   background-color: #3b3b42de;
@@ -180,7 +180,7 @@ h1 {
   outline: none;
   width: 100px;
   height: 30px;
-  border-radius: 1px;
+  border-radius: 10px;
   margin-top: 260px;
   margin-left: 310px;
   background-color: #3b3b42de;
@@ -202,7 +202,7 @@ h1 {
   outline: none;
   width: 60px;
   height: 30px;
-  border-radius: 1px;
+  border-radius: 10px;
   margin-top: 227px;
   margin-left: 140px;
   background-color: #3b3b42de;
@@ -216,7 +216,7 @@ h1 {
   outline: none;
   width: 60px;
   height: 30px;
-  border-radius: 1px;
+  border-radius: 10px;
   margin-top: 1px;
   margin-left: 140px;
   background-color: #3b3b42de;
