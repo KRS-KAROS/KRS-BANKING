@@ -7,7 +7,7 @@
     rgba(33, 160, 202, 0.77) 0%,
     rgba(0, 0, 0, 0.719) 80%
   );
-  border: 1px rgba(0, 107, 143, 0.555) solid;
+  border: 1px rgba(0, 255, 255, 0.555) solid;
   border-radius: 15px;
   width: 700px;
   height: 500px;
@@ -87,7 +87,7 @@ button:hover {
   position: absolute;
   margin-left: 500px;
   background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
+  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
   border-radius: 10px;
@@ -109,7 +109,7 @@ h1 {
   position: absolute;
   margin-left: 500px;
   background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
+  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
   border-radius: 10px;
@@ -124,7 +124,7 @@ h1 {
   position: absolute;
   margin-left: 500px;
   background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(25, 240, 255, 0.46);
+  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
   border-radius: 10px;
@@ -159,11 +159,12 @@ h1 {
   border-radius: 10px;
   margin-top: 260px;
   margin-left: 100px;
+  color: rgb(0, 255, 255);
   background-color: #3b3b42de;
-  border: 1px rgba(255, 255, 255, 0.137) solid;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
-  color: white;
+  outline-color: rgb(0, 255, 255);
+  border-color: aqua;
+  transition: .1s;
+  transition-property: box-shadow;
 }
 
 /* Icona */
@@ -183,11 +184,12 @@ h1 {
   border-radius: 10px;
   margin-top: 260px;
   margin-left: 310px;
+  color: rgb(0, 255, 255);
   background-color: #3b3b42de;
-  border: 1px rgba(255, 255, 255, 0.137) solid;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
-  color: rgb(255, 255, 255);
+  outline-color: rgb(0, 255, 255);
+  border-color: aqua;
+  transition: .1s;
+  transition-property: box-shadow;
 }
 
 .trasfe-testo {
@@ -205,11 +207,12 @@ h1 {
   border-radius: 10px;
   margin-top: 227px;
   margin-left: 140px;
+  color: rgb(0, 255, 255);
   background-color: #3b3b42de;
-  border: 1px rgba(255, 255, 255, 0.137) solid;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
-  color: rgb(255, 255, 255);
+  outline-color: rgb(0, 255, 255);
+  border-color: aqua;
+  transition: .1s;
+  transition-property: box-shadow;
 }
 
 .trasfe-controllo2 {
@@ -219,12 +222,14 @@ h1 {
   border-radius: 10px;
   margin-top: 1px;
   margin-left: 140px;
+  color: rgb(0, 255, 255);
   background-color: #3b3b42de;
-  border: 1px rgba(255, 255, 255, 0.137) solid;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(181, 191, 191, 0.3) 0px 18px 36px -18px inset;
-  color: rgb(255, 255, 255);
+  outline-color: rgb(0, 255, 255);
+  border-color: aqua;
+  transition: .1s;
+  transition-property: box-shadow;
 }
+
 
 ::-webkit-inner-spin-button,
 input[type="number"] ::-webkit-outer-spin-button {
