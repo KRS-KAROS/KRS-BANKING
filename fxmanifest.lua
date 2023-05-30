@@ -23,7 +23,7 @@ files{
     'ui/krs.html',
     'ui/krs.css',
     'ui/krs.js',
-    'ui/logo.gif',
+    'ui/logo.png',
     'ui/carta.png'
 }
 

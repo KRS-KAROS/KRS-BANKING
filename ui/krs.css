@@ -2,13 +2,10 @@
 .container {
   display: none;
   position: absolute;
-  background: linear-gradient(
-    -10deg,
-    rgba(33, 160, 202, 0.77) 0%,
-    rgba(0, 0, 0, 0.719) 80%
-  );
-  border: 1px rgba(0, 255, 255, 0.555) solid;
-  border-radius: 15px;
+  background-color: #313546;
+  box-shadow: 1px 1px 10px 1px rgb(28, 29, 41);
+  border: 1px rgba(22, 22, 22, 0) solid;
+  border-radius: 8px;
   width: 700px;
   height: 500px;
   left: 650px; /* posizione centrale 650px */
@@ -28,9 +25,10 @@ button:hover {
 }
 
 .logo {
-  width: 70px;
-  height: 60px;
-  margin-left: 20px;
+  width: 120px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: -150px;
   right: 0;
 }
 
@@ -65,16 +63,16 @@ button:hover {
 
 /* Soldi in Banca */
 .bank {
-  background-color: rgba(0, 0, 0, 0.151);
+  background-color: #2a2b3a7c;
   width: 150px;
   height: 25px;
-  border-radius: 10px;
-  color: #62c9d0;
-  margin-left: 530px;
+  border-radius: 5px;
+  color: #f5f5f5;
+  margin-left: 539px;
   margin-top: -5px;
   text-align: center;
 
-  text-shadow: 1px 0px 6px #62c9d0;
+  
 }
 
 .h1 {
@@ -86,11 +84,10 @@ button:hover {
 .ritira {
   position: absolute;
   margin-left: 500px;
-  background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
+  background-color: #4263EB;
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 110px;
   height: 35px;
   left: -10px;
@@ -102,17 +99,16 @@ h1 {
   margin-left: 290px;
   font-family: monospace;
   color: white;
-  filter: drop-shadow(0 5px 5px rgba(255, 255, 255, 0.808));
+  
 }
 
 .deposita {
   position: absolute;
   margin-left: 500px;
-  background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
+  background-color: #4263EB;
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 110px;
   height: 35px;
   left: -390px;
@@ -123,11 +119,10 @@ h1 {
 .trasfe {
   position: absolute;
   margin-left: 500px;
-  background-color: #62c9d0;
-  box-shadow: 1px 1px 10px 1px rgba(0, 255, 255);
+  background-color: #4263EB;
   color: white;
   border: 1px rgba(255, 255, 255, 0) solid;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 70px;
   height: 35px;
   left: -180px;
@@ -136,9 +131,10 @@ h1 {
 }
 
 .carta {
+  /* background-color: #4263EB; */
   width: 180px;
-  height: 120px;
-  border-radius: 1px;
+  height: 110px;
+  border-radius: 8px;
   margin-top: -60px;
   margin-left: 260px;
   animation: KrsBoxAnim 2s ease 0s 1 normal forwards;
@@ -156,13 +152,13 @@ h1 {
   outline: none;
   width: 100px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 260px;
   margin-left: 100px;
-  color: rgb(0, 255, 255);
-  background-color: #3b3b42de;
-  outline-color: rgb(0, 255, 255);
-  border-color: aqua;
+  color: rgb(255, 255, 255);
+  background-color: #2a2b3a7c;
+  outline-color: rgb(236, 236, 236);
+  border-color: rgba(95, 95, 95, 0);
   transition: .1s;
   transition-property: box-shadow;
 }
@@ -181,13 +177,13 @@ h1 {
   outline: none;
   width: 100px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 260px;
   margin-left: 310px;
-  color: rgb(0, 255, 255);
-  background-color: #3b3b42de;
-  outline-color: rgb(0, 255, 255);
-  border-color: aqua;
+  color: rgb(233, 233, 233);
+  background-color: #2a2b3a7c;
+  outline-color: rgb(236, 236, 236);
+  border-color: rgba(95, 95, 95, 0);
   transition: .1s;
   transition-property: box-shadow;
 }
@@ -204,13 +200,13 @@ h1 {
   outline: none;
   width: 60px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 227px;
   margin-left: 140px;
-  color: rgb(0, 255, 255);
-  background-color: #3b3b42de;
-  outline-color: rgb(0, 255, 255);
-  border-color: aqua;
+  color: rgb(233, 233, 233);
+  background-color: #2a2b3a7c;
+  outline-color: rgb(236, 236, 236);
+  border-color: rgba(95, 95, 95, 0);
   transition: .1s;
   transition-property: box-shadow;
 }
@@ -219,13 +215,13 @@ h1 {
   outline: none;
   width: 60px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 1px;
   margin-left: 140px;
-  color: rgb(0, 255, 255);
-  background-color: #3b3b42de;
-  outline-color: rgb(0, 255, 255);
-  border-color: aqua;
+  color: rgb(233, 233, 233);
+  background-color: #2a2b3a7c;
+  outline-color: rgb(236, 236, 236);
+  border-color: rgba(95, 95, 95, 0);
   transition: .1s;
   transition-property: box-shadow;
 }
