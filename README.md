@@ -3,4 +3,5 @@
 
 
 
-![FiveM® by Cfx re 12_05_2023 16_20_37](https://github.com/KRS-KAROS/KRS-BANKING/assets/131356071/7079c2df-b374-4c88-8b16-95a66123587d)
+
+![krs-banking](https://github.com/KRS-KAROS/KRS-BANKING/assets/131356071/a6f936d5-9045-461f-88d3-2c8e0d990cd9)
